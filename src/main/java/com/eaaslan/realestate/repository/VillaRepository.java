@@ -10,9 +10,9 @@ public class VillaRepository implements BaseRepository<Villa> {
     private final List<Villa> villas =new ArrayList<Villa>();
 
     public VillaRepository() {
-        villas.add(new Villa( 200000, 300, 2, 1));
-        villas.add(new Villa( 300000, 400, 3, 2));
-        villas.add(new Villa( 400000, 500, 4, 3));
+        villas.add(new Villa( 280000, 300, 2, 1));
+        villas.add(new Villa( 305000, 430, 3, 2));
+        villas.add(new Villa( 402000, 540, 4, 3));
     }
 
     @Override
@@ -20,20 +20,4 @@ public class VillaRepository implements BaseRepository<Villa> {
         return villas;
     }
 
-//    public List<Villa> getVillas() {
-//        return villas;
-//    }
-//    double getVillaTotalPrice() {
-//        return villas
-//                .stream()
-//                .mapToDouble(Villa::getPrice)
-//                .sum();
-//    }
-//    double getAverageVillaSquareMeter() {
-//        return villas
-//                .stream()
-//                .mapToDouble(Villa::getSquareMeter)
-//                .average()
-//                .orElse(0);
-//    }
 }
