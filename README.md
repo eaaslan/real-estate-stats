@@ -57,7 +57,7 @@ Number of holiday homes: 3
 Properties with 3 rooms: 3
 Properties with 2 salons: 3
 
-========== END OF REPORT ==========
+=========== END OF REPORT ===========
 ```
 
 ## Technologies Used
